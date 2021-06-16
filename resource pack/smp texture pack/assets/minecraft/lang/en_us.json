@@ -1,0 +1,20 @@
+{
+  "item.minecraft.knowledge_book": "Click to craft",
+  
+  "ggdk.message.intoxication": " was too drunk to be alive.",
+  
+  "ggdk.advancement.main.title": "GGDK (Geegaz's drinks)",
+  "ggdk.advancement.main.description": "Let's drink to us!\n8 new drinks with various effects.",
+  "ggdk.advancement.reminder.title": "REMINDER",
+  "ggdk.advancement.reminder.description": "Alcohol is dangerous to your health. In real life, drink in moderation.",
+  
+  "ggdk.item.vodka": "Vodka",
+  "ggdk.item.whiskey": "Whiskey",
+  "ggdk.item.tequila": "Tequila",
+  "ggdk.item.vin": "Wine",
+  "ggdk.item.cidre": "Cider",
+  "ggdk.item.biere": "Beer",
+  "ggdk.item.the": "Tea",
+  "ggdk.item.chocolat": "Chocolate"
+  "item.minecraft.knowledge_book": "Wrench"
+}

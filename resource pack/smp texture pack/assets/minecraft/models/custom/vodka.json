@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/vodka",
+        "layer1": "item/vodka"
+    }
+}

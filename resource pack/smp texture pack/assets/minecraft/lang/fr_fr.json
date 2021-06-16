@@ -1,0 +1,20 @@
+{
+  "item.minecraft.knowledge_book": "Cliquez pour reçevoir l'item",
+  
+  "ggdk.message.intoxication": " a trop bu pour tenir debout.",
+  
+  "ggdk.advancement.main.title": "GGDK (Geegaz's drinks)",
+  "ggdk.advancement.main.description": "Buvons à notre santé !\n8 nouvelles boissons aux effets variés.",
+  "ggdk.advancement.reminder.title": "RAPPEL",
+  "ggdk.advancement.reminder.description": "L'alcool est dangereux pour votre santé. Dans la vie réelle, buvez avec modération",
+  
+  "ggdk.item.vodka": "Vodka",
+  "ggdk.item.whiskey": "Whiskey",
+  "ggdk.item.tequila": "Tequila",
+  "ggdk.item.vin": "Vin",
+  "ggdk.item.cidre": "Cidre",
+  "ggdk.item.biere": "Bière",
+  "ggdk.item.the": "Thé",
+  "ggdk.item.chocolat": "Chocolat"
+  
+}
