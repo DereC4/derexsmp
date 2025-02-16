@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Banlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minecraft Server Banlist</h1>
+        <div class="banlist">
+            <div class="card">
+                <h2>BORZ_CHIMAEV</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>_Carvvy</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>duckmanMC</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>stephencleven</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>Alland20201</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>TobiMaxi</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>LogischerMalzYT</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>sweatyynon</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>kayla_owo</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>FunneeMonke</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>FreeFallFail</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>MakeURegret</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>RedHatLinux</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>skayQz</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>xpkn</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>kingarthurio</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>Baby_Banger</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+            <div class="card">
+                <h2>_Ni__er_</h2>
+                <p>Punishment Date: 01/01/2025</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
