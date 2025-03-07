@@ -1,5 +1,5 @@
 async function fetchPunishments() {
-    const response = await fetch('punishments.json');
+    const response = await fetch('docs/punishments.json');
     const punishments = await response.json();
     const banlist = document.getElementById('banlist');
   
