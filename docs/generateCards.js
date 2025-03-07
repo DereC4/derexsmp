@@ -8,7 +8,7 @@ async function fetchPunishments() {
       card.className = 'card';
   
       const img = document.createElement('img');
-      img.src = `https://mc-heads.net/avatar/${punishment.name}/100`;
+      img.src = `https://mc-heads.net/avatar/${punishment.uuid}/100`;
       img.alt = `${punishment.name}'s head`;
   
       const h2 = document.createElement('h2');
