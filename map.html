@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wall of shame</title>
+    <title>Server Map</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -15,7 +15,7 @@
     />
     <meta
       name="description"
-      content="Derex SMP Wall of Shame - List of banned hackers and griefers on our Minecraft server."
+      content="Derex SMP Server Map - Explore the map of our Minecraft server."
     />
     <link
       rel="shortcut icon"
@@ -24,19 +24,20 @@
     />
     <meta
       name="keywords"
-      content="Minecraft, Derex SMP, Wall of Shame, Banlist, Hackers, Griefers"
+      content="Minecraft, Derex SMP, Server Map, Minecraft Map"
     />
     <meta name="author" content="Derex SMP" />
   </head>
 
   <body>
-    <div class="banlist-container">
-      <h1>derex smp wall of shame</h1>
-      <div class="banlist" id="banlist">
-        <!-- Cards will be generated here by JavaScript -->
+    <div class="map-body">
+      <div class="map-container">
+        <h1>Minecraft World Map</h1>
+        <iframe
+          src="http://207.211.181.64:8080/?world=ul_world_new&renderer=vintage_story&zoom=0.25&x=0&z=0"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
-
-    <script src="docs/generateCards.js"></script>
   </body>
 </html>
