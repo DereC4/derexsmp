@@ -28,6 +28,10 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.banlist-container h1 {
+  color: white;
+}
+
 h1 {
   text-align: center;
   margin: 20px 0;
@@ -38,8 +42,8 @@ h1 {
   justify-content: center;
 }
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #c8d6e5;
+  border: 1px solid #6b7a8a;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px;
