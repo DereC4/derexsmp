@@ -1,7 +1,7 @@
 var map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: 0,
-    maxBounds: [[0, 0], [886, 1773]],
+    maxBounds: [[0, 0], [3367, 1939]],
     maxBoundsViscosity: 1.0
   });
   
