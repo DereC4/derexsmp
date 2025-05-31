@@ -36,6 +36,12 @@ h1 {
   text-align: center;
   margin: 20px 0;
 }
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: medium;
+  color: white;
+}
 .banlist {
   display: flex;
   flex-wrap: wrap;
