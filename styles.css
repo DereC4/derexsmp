@@ -58,6 +58,7 @@ h2 {
   text-align: center;
 }
 .card h2 {
+  color: black;
   margin: 0 0 10px;
 }
 .card p {
