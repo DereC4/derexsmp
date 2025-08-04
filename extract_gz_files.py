@@ -34,7 +34,7 @@ def extract_gz_files_and_find_smiley():
                 with open(output_file, 'r', encoding='utf-8', errors='ignore') as f:
                     for line_num, line in enumerate(f, 1):
                         if ":))" in line:
-                            smiley_lines.append(f"{output_file.name}:{line_num}: {line.strip()}")
+                            smiley_lines.append(f"{line.strip()}")
             except Exception as e:
                 print(f"Error reading {output_file}: {e}")
                 
