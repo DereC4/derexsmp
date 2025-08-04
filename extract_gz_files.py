@@ -6,6 +6,7 @@ from pathlib import Path
 def extract_gz_files_and_find_smiley():
     temp_dir = Path("temp")
     if not temp_dir.exists():
+        os.makedirs(temp_dir)
         print("temp directory does not exist!")
         return
     smiley_lines = []
