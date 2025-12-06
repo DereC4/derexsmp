@@ -37,7 +37,7 @@ async function fetchMembers() {
         const uuid = file.name.replace('.dat', '').replace(/-/g, '');
         
         try {
-          const nameResponse = await fetch(`https://sessionserver.mojang.com/session/minecraft/profile/${uuid}`);
+          const nameResponse = await fetch(`https://api.mojang.com/user/profile/${uuid}`);
           const profile = await nameResponse.json();
           
           const card = document.createElement('div');
