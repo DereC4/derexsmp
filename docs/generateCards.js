@@ -30,6 +30,8 @@ async function fetchPunishments() {
 async function fetchMembers() {
   const memberlist = document.getElementById('memberlist');
   
+  if (!memberlist) return;
+  
   try {
     const response = await fetch('https://api.github.com/repos/DereC4/derexsmp/contents/docs/playerdata');
     const files = await response.json();
