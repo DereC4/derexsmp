@@ -47,7 +47,8 @@ async function fetchMembers() {
         const uuid = file.name.replace('.dat', '').replace(/-/g, '');
         
         try {
-          const nameResponse = await fetch(`https://api.mojang.com/user/profile/${uuid}`);
+          const formattedUuid = uuid.replace(/(.{8})(.{4})(.{4})(.{4})(.{12})/, '$1-$2-$3-$4-$5');
+          const nameResponse = await fetch(`https://api.ashcon.app/mojang/v2/user/${formattedUuid}`);
           const profile = await nameResponse.json();
           
           const card = document.createElement('div');
@@ -55,10 +56,10 @@ async function fetchMembers() {
           
           const img = document.createElement('img');
           img.src = `https://mc-heads.net/avatar/${uuid}/100`;
-          img.alt = `${profile.name}'s head`;
+          img.alt = `${profile.username}'s head`;
           
           const h2 = document.createElement('h2');
-          h2.textContent = profile.name || uuid.substring(0, 8);
+          h2.textContent = profile.username || uuid.substring(0, 8);
           
           card.appendChild(img);
           card.appendChild(h2);
