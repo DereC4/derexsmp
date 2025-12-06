@@ -1,3 +1,6 @@
+/**
+ * Generate the list of jailed players and append it onto banlist website
+ */
 async function fetchPunishments() {
     const response = await fetch('docs/punishments.json');
     const punishments = await response.json();
@@ -27,6 +30,9 @@ async function fetchPunishments() {
     });
   }
 
+/**
+ * Generate the list of players and append it onto members website
+ */
 async function fetchMembers() {
   const memberlist = document.getElementById('memberlist');
   
