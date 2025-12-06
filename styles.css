@@ -4,24 +4,36 @@ body {
   margin: 0;
   padding: 0;
 }
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #333;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+nav.navbar {
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #333 !important;
+  padding: 10px 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10000 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+  border: none !important;
 }
-.navbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
+nav.navbar a {
+  color: white !important;
+  padding: 14px 20px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  font-family: 'Roboto', sans-serif !important;
+  display: inline-block !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 16px !important;
 }
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+nav.navbar a:hover {
+  background-color: #ddd !important;
+  color: black !important;
+  text-decoration: none !important;
 }
 .banlist-container {
   width: 80%;
