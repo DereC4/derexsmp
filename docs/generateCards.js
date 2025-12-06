@@ -3,6 +3,8 @@ async function fetchPunishments() {
     const punishments = await response.json();
     const banlist = document.getElementById('banlist');
   
+    if (!banlist) return;
+  
     punishments.forEach(punishment => {
       const card = document.createElement('div');
       card.className = 'card';
