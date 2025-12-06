@@ -47,6 +47,11 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 }
+.memberlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .card {
   background-color: #c8d6e5;
   border: 1px solid #6b7a8a;
